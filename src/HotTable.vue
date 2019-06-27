@@ -16,7 +16,7 @@
   const HotTable: HotTableComponent<Vue, HotTableData, HotTableMethods, {}, HotTableProps> = {
     name: 'HotTable',
     props: propFactory(),
-    watch: propWatchFactory(updateHotSettings),
+    // watch: propWatchFactory(updateHotSettings),
     data: function () {
       return {
         __internalEdit: false,
